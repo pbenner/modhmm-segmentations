@@ -1,0 +1,20 @@
+{
+    "Bam Directory" : ".bam",
+    "Bam Files"     : {
+	"DNase"     : ["ENCFF994XER.bam"],
+	"H3K27ac"   : ["ENCFF823SXL.bam"],
+	"H3K27me3"  : ["ENCFF411QLO.bam"],
+	"H3K9me3"   : ["ENCFF661UEW.bam"],
+	"H3K4me1"   : ["ENCFF061NMR.bam"],
+	"H3K4me3"   : ["ENCFF321TTK.bam"],
+	"RNA"       : ["ENCFF887QDG.bam"],
+	"Control"   : ["ENCFF893ZJC.bam"]
+    },
+    "Coverage Threads"                : 5,
+    "Single-Feature Model Directory"  : "GRCh38-ascending-aorta:models",
+    "Directory"                       : "GRCh38-ascending-aorta",
+    "Description"                     : "GRCh38 ascending aorta",
+    "Model Estimate"                  : true,
+    "Threads"                         : 20,
+    "Verbose"                         : 2
+}

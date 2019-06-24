@@ -1,0 +1,20 @@
+{
+    "Bam Directory" : ".bam",
+    "Bam Files"     : {
+	"DNase"     : ["ENCFF326LLN.bam"],
+	"H3K27ac"   : ["ENCFF351KZG.bam"],
+	"H3K27me3"  : ["ENCFF673UOT.bam"],
+	"H3K9me3"   : ["ENCFF924KAA.bam"],
+	"H3K4me1"   : ["ENCFF784EOU.bam"],
+	"H3K4me3"   : ["ENCFF834XWR.bam"],
+	"RNA"       : ["ENCFF470XVM.bam"],
+	"Control"   : ["ENCFF981WUC.bam"]
+    },
+    "Coverage Threads"                : 5,
+    "Single-Feature Model Directory"  : "GRCh38-lung-upper-lobe:models",
+    "Directory"                       : "GRCh38-lung-upper-lobe",
+    "Description"                     : "GRCh38 lung upper lobe",
+    "Model Estimate"                  : true,
+    "Threads"                         : 20,
+    "Verbose"                         : 2
+}

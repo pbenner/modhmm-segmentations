@@ -1,0 +1,20 @@
+{
+    "Bam Directory" : ".bam",
+    "Bam Files"     : {
+	"ATAC"      : ["ENCFF069SZE.bam"],
+	"H3K27ac"   : ["ENCFF913JKY.bam"],
+	"H3K27me3"  : ["ENCFF189FFP.bam"],
+	"H3K9me3"   : ["ENCFF872RJD.bam"],
+	"H3K4me1"   : ["ENCFF649GAN.bam"],
+	"H3K4me3"   : ["ENCFF080YIC.bam"],
+	"RNA"       : ["ENCFF153XTD.bam"],
+	"Control"   : ["ENCFF419ELL.bam"]
+    },
+    "Coverage Threads"                : 5,
+    "Single-Feature Model Directory"  : "GRCh38-stomach:models",
+    "Directory"                       : "GRCh38-stomach",
+    "Description"                     : "GRCh38 stomach",
+    "Model Estimate"                  : true,
+    "Threads"                         : 20,
+    "Verbose"                         : 2
+}

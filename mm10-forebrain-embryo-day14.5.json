@@ -1,0 +1,20 @@
+{
+    "Bam Directory" : ".bam",
+    "Bam Files"     : {
+	"ATAC"      : ["ENCFF336VLY.bam", "ENCFF407NCE.bam"],
+	"H3K27ac"   : ["ENCFF426QSR.bam", "ENCFF418VQH.bam"],
+	"H3K27me3"  : ["ENCFF159MVW.bam", "ENCFF392EKM.bam"],
+	"H3K9me3"   : ["ENCFF141EJM.bam", "ENCFF140ZIV.bam"],
+	"H3K4me1"   : ["ENCFF748IHX.bam", "ENCFF086SNO.bam"],
+	"H3K4me3"   : ["ENCFF072OAK.bam", "ENCFF633VWI.bam"],
+	"RNA"       : ["ENCFF698PGS.bam", "ENCFF826NAG.bam"],
+	"Control"   : ["ENCFF411XWG.bam", "ENCFF037YEE.bam"]
+    },
+    "Coverage Threads"                : 5,
+    "Single-Feature Model Directory"  : "mm10-forebrain-embryo-day14.5:models",
+    "Directory"                       : "mm10-forebrain-embryo-day14.5",
+    "Description"                     : "forebrain embryo day14.5",
+    "Model Estimate"                  : true,
+    "Threads"                         : 10,
+    "Verbose"                         : 2
+}

@@ -1,0 +1,20 @@
+{
+    "Bam Directory" : ".bam",
+    "Bam Files"     : {
+	"ATAC"      : ["ENCFF929LOH.bam", "ENCFF848NLJ.bam"],
+	"H3K27ac"   : ["ENCFF524ZFV.bam", "ENCFF322QGS.bam"],
+	"H3K27me3"  : ["ENCFF811DWT.bam", "ENCFF171KAM.bam"],
+	"H3K9me3"   : ["ENCFF293UCG.bam", "ENCFF777XFH.bam"],
+	"H3K4me1"   : ["ENCFF788JMC.bam", "ENCFF340ACH.bam"],
+	"H3K4me3"   : ["ENCFF211WGC.bam", "ENCFF587PZE.bam"],
+	"RNA"       : ["ENCFF405LEY.bam", "ENCFF627PCS.bam"],
+	"Control"   : ["ENCFF865QGZ.bam", "ENCFF438RYK.bam"]
+    },
+    "Coverage Threads"               : 5,
+    "Single-Feature Model Directory" : "mm10-liver-embryo-day12.5:models",
+    "Directory"                      : "mm10-liver-embryo-day12.5",
+    "Description"                    : "liver embryo day12.5",
+    "Model Estimate"                 : true,
+    "Threads"                        : 10,
+    "Verbose"                        : 2
+}

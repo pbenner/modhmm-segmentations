@@ -1,0 +1,22 @@
+{
+    "Bam Directory" : ".bam",
+    "Bam Files"     : {
+	#"ATAC"      : ["ENCFF388DNI.bam"],
+	"DNase"     : ["ENCFF225HZN.bam"],
+	"H3K27ac"   : ["ENCFF785RYZ.bam"],
+	#"H3K27me3"  : ["ENCFF880JQE.bam"],
+	"H3K27me3"  : ["ENCFF943RGA.bam"],
+	"H3K9me3"   : ["ENCFF482HDN.bam"],
+	"H3K4me1"   : ["ENCFF148AFA.bam"],
+	"H3K4me3"   : ["ENCFF277POE.bam"],
+	"RNA"       : ["ENCFF187XBA.bam"],
+	"Control"   : ["ENCFF590RZJ.bam"]
+    },
+    "Coverage Threads"                : 5,
+    "Single-Feature Model Directory"  : "GRCh38-pancreas:models",
+    "Directory"                       : "GRCh38-pancreas",
+    "Description"                     : "GRCh38 pancreas",
+    "Model Estimate"                  : true,
+    "Threads"                         : 20,
+    "Verbose"                         : 2
+}

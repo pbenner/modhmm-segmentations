@@ -1,0 +1,20 @@
+{
+    "Bam Directory" : ".bam",
+    "Bam Files"     : {
+	"ATAC"      : ["ATAC-mm10-heart-day14.5-rep1.bam", "ATAC-mm10-heart-day14.5-rep2.bam"],
+	"H3K27ac"   : ["ENCFF176BPZ.bam", "ENCFF100LKR.bam"],
+	"H3K27me3"  : ["ENCFF055PTM.bam", "ENCFF610GSF.bam"],
+	"H3K9me3"   : ["ENCFF746FYC.bam", "ENCFF175ZLG.bam"],
+	"H3K4me1"   : ["ENCFF851BHF.bam", "ENCFF923LLN.bam"],
+	"H3K4me3"   : ["ENCFF297NEG.bam", "ENCFF169GZC.bam"],
+	"RNA"       : ["ENCFF168OHL.bam", "ENCFF590MNC.bam"],
+	"Control"   : ["ENCFF951GMQ.bam", "ENCFF842YLI.bam"]
+    },
+    "Coverage Threads"                : 5,
+    "Single-Feature Model Directory"  : "mm10-heart-embryo-day14.5:models",
+    "Directory"                       : "mm10-heart-embryo-day14.5",
+    "Description"                     : "heart embryo day14.5",
+    "Model Estimate"                  : true,
+    "Threads"                         : 10,
+    "Verbose"                         : 2
+}

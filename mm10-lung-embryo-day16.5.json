@@ -1,0 +1,20 @@
+{
+    "Bam Directory" : ".bam",
+    "Bam Files"     : {
+	"ATAC"      : ["ATAC-mm10-lung-day16.5-rep1.bam", "ATAC-mm10-lung-day16.5-rep2.bam"],
+	"H3K27ac"   : ["ENCFF431CSN.bam", "ENCFF149TQU.bam"],
+	"H3K27me3"  : ["ENCFF079QHR.bam", "ENCFF788UXL.bam"],
+	"H3K9me3"   : ["ENCFF740KNN.bam", "ENCFF380FIJ.bam"],
+	"H3K4me1"   : ["ENCFF151AXQ.bam", "ENCFF440VFN.bam"],
+	"H3K4me3"   : ["ENCFF844DSD.bam", "ENCFF437ESL.bam"],
+	"RNA"       : ["ENCFF502KFQ.bam", "ENCFF371ONT.bam"],
+	"Control"   : ["ENCFF018HYW.bam", "ENCFF855ISH.bam"]
+    },
+    "Coverage Threads"                : 5,
+    "Single-Feature Model Directory"  : "mm10-lung-embryo-day16.5:models",
+    "Directory"                       : "mm10-lung-embryo-day16.5",
+    "Description"                     : "lung embryo day16.5",
+    "Model Estimate"                  : true,
+    "Threads"                         : 10,
+    "Verbose"                         : 2
+}

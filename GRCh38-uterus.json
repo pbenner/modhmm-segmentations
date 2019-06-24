@@ -1,0 +1,20 @@
+{
+    "Bam Directory" : ".bam",
+    "Bam Files"     : {
+	"DNase"     : ["ENCFF263CER.bam"],
+	"H3K27ac"   : ["ENCFF367SAH.bam"],
+	"H3K27me3"  : ["ENCFF538OSP.bam"],
+	"H3K9me3"   : ["ENCFF081NSN.bam"],
+	"H3K4me1"   : ["ENCFF423WYS.bam"],
+	"H3K4me3"   : ["ENCFF668QWW.bam"],
+	"RNA"       : ["ENCFF535PXY.bam"],
+	"Control"   : ["ENCFF492OBI.bam"]
+    },
+    "Coverage Threads"                : 5,
+    "Single-Feature Model Directory"  : "GRCh38-uterus:models",
+    "Directory"                       : "GRCh38-uterus",
+    "Description"                     : "GRCh38 uterus",
+    "Model Estimate"                  : true,
+    "Threads"                         : 20,
+    "Verbose"                         : 2
+}

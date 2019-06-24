@@ -1,0 +1,20 @@
+{
+    "Bam Directory" : ".bam",
+    "Bam Files"     : {
+	"ATAC"      : ["ENCFF310VHO.bam"],
+	"H3K27ac"   : ["ENCFF065GIK.bam"],
+	"H3K27me3"  : ["ENCFF404YFJ.bam"],
+	"H3K9me3"   : ["ENCFF937ZBG.bam"],
+	"H3K4me1"   : ["ENCFF658QKI.bam"],
+	"H3K4me3"   : ["ENCFF522PEL.bam"],
+	"RNA"       : ["ENCFF522ZKF.bam"],
+	"Control"   : ["ENCFF925AMH.bam"]
+    },
+    "Coverage Threads"                : 5,
+    "Single-Feature Model Directory"  : "GRCh38-heart:models",
+    "Directory"                       : "GRCh38-heart",
+    "Description"                     : "GRCh38 heart",
+    "Model Estimate"                  : true,
+    "Threads"                         : 20,
+    "Verbose"                         : 2
+}

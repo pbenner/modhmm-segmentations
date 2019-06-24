@@ -1,0 +1,20 @@
+{
+    "Bam Directory" : ".bam",
+    "Bam Files"     : {
+	"ATAC"      : ["ENCFF979TLW.bam", "ENCFF525KUY.bam"],
+	"H3K27ac"   : ["ENCFF097OBB.bam", "ENCFF829WUL.bam"],
+	"H3K27me3"  : ["ENCFF419CLC.bam", "ENCFF186WJD.bam"],
+	"H3K9me3"   : ["ENCFF363APO.bam", "ENCFF622PSB.bam"],
+	"H3K4me1"   : ["ENCFF221WFK.bam", "ENCFF391CLH.bam"],
+	"H3K4me3"   : ["ENCFF562KIH.bam", "ENCFF082OHV.bam"],
+	"RNA"       : ["ENCFF190CBW.bam", "ENCFF419SNS.bam"],
+	"Control"   : ["ENCFF394IRO.bam", "ENCFF742VJP.bam"]
+    },
+    "Coverage Threads"                : 5,
+    "Single-Feature Model Directory"  : "mm10-kidney-embryo-day16.5:models",
+    "Directory"                       : "mm10-kidney-embryo-day16.5",
+    "Description"                     : "kidney embryo day16.5",
+    "Model Estimate"                  : true,
+    "Threads"                         : 10,
+    "Verbose"                         : 2
+}

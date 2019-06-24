@@ -1,0 +1,20 @@
+{
+    "Bam Directory" : ".bam",
+    "Bam Files"     : {
+	"ATAC"      : ["ENCFF668ELB.bam", "ENCFF520IWZ.bam"],
+	"H3K27ac"   : ["ENCFF834BEU.bam", "ENCFF031OBD.bam"],
+	"H3K27me3"  : ["ENCFF244SXN.bam", "ENCFF482QED.bam"],
+	"H3K9me3"   : ["ENCFF886GLK.bam", "ENCFF890VUY.bam"],
+	"H3K4me1"   : ["ENCFF206GAZ.bam", "ENCFF781URQ.bam"],
+	"H3K4me3"   : ["ENCFF876VMW.bam", "ENCFF426RVW.bam"],
+	"RNA"       : ["ENCFF463QRZ.bam", "ENCFF299ZGL.bam"],
+	"Control"   : ["ENCFF627JLU.bam", "ENCFF026JTV.bam"]
+    },
+    "Coverage Threads"                : 5,
+    "Single-Feature Model Directory"  : "mm10-hindbrain-embryo-day11.5:models",
+    "Directory"                       : "mm10-hindbrain-embryo-day11.5",
+    "Description"                     : "hindbrain embryo day11.5",
+    "Model Estimate"                  : true,
+    "Threads"                         : 10,
+    "Verbose"                         : 2
+}

@@ -1,0 +1,20 @@
+{
+    "Bam Directory" : ".bam",
+    "Bam Files"     : {
+	"ATAC"      : ["ATAC-mm10-limb-day14.5-rep1.bam", "ATAC-mm10-limb-day14.5-rep2.bam"],
+	"H3K27ac"   : ["ENCFF219IYF.bam", "ENCFF050SGU.bam"],
+	"H3K27me3"  : ["ENCFF289DEQ.bam", "ENCFF087TDB.bam"],
+	"H3K9me3"   : ["ENCFF520QES.bam", "ENCFF888BTM.bam"],
+	"H3K4me1"   : ["ENCFF946FSF.bam", "ENCFF851KQD.bam"],
+	"H3K4me3"   : ["ENCFF358KVN.bam", "ENCFF074NXM.bam"],
+	"RNA"       : ["ENCFF483ZFR.bam", "ENCFF793SNG.bam"],
+	"Control"   : ["ENCFF238DWC.bam", "ENCFF872AZH.bam"]
+    },
+    "Coverage Threads"                : 5,
+    "Single-Feature Model Directory"  : "mm10-limb-embryo-day14.5:models",
+    "Directory"                       : "mm10-limb-embryo-day14.5",
+    "Description"                     : "limb embryo day14.5",
+    "Model Estimate"                  : true,
+    "Threads"                         : 10,
+    "Verbose"                         : 2
+}

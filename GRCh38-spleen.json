@@ -1,0 +1,20 @@
+{
+    "Bam Directory" : ".bam",
+    "Bam Files"     : {
+	"ATAC"      : ["ENCFF294ZCT.bam"],
+	"H3K27ac"   : ["ENCFF289QOL.bam"],
+	"H3K27me3"  : ["ENCFF202EUA.bam"],
+	"H3K9me3"   : ["ENCFF634ZFT.bam"],
+	"H3K4me1"   : ["ENCFF229KGO.bam"],
+	"H3K4me3"   : ["ENCFF813EVB.bam"],
+	"RNA"       : ["ENCFF023ZHK.bam"],
+	"Control"   : ["ENCFF608SQR.bam"]
+    },
+    "Coverage Threads"                : 5,
+    "Single-Feature Model Directory"  : "GRCh38-spleen:models",
+    "Directory"                       : "GRCh38-spleen",
+    "Description"                     : "GRCh38 spleen",
+    "Model Estimate"                  : true,
+    "Threads"                         : 20,
+    "Verbose"                         : 2
+}
