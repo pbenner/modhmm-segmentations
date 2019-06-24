@@ -100,7 +100,7 @@ $(BASENAMES): %:
 ## -----------------------------------------------------------------------------
 
 README.md: $(TARGETS)
-	echo 'Tissue | Date |Segmentation | Posteriors | Config | Single-feature model | Comment' >> $@
+	echo 'Tissue | Date |Segmentation | Posteriors | Config | Single-feature model | Comment' >  $@
 	echo '-------|------|-------------|------------|--------|----------------------|--------' >> $@
 	for i in $(BASENAMES); do \
 		echo -n "$$i" | sed 's/-/ /g'; \
