@@ -64,7 +64,9 @@ all: $(TARGETS) README.md
 ## -----------------------------------------------------------------------------
 
 %/segmentation.bed.gz: | %
-	cp -Lpr ~/Source/modhmm-encode/$@ $@
+	zgrep -v chrEBV ~/Source/modhmm-encode/$@ > $(basename $@)
+	gzip -9 $(basename $@)
+	touch -r ~/Source/modhmm-encode/$@ $@
 
 ## posteriors
 ## -----------------------------------------------------------------------------
