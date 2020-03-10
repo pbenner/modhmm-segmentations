@@ -11,10 +11,8 @@
 	"Control"   : ["ENCFF018HYW.bam", "ENCFF855ISH.bam"]
     },
     "Coverage Threads"                : 5,
-    "Single-Feature Model Directory"  : "mm10-lung-embryo-day16.5:models",
     "Directory"                       : "mm10-lung-embryo-day16.5",
     "Description"                     : "lung embryo day16.5",
-    "Model Estimate"                  : true,
     "Threads"                         : 10,
     "Verbose"                         : 2
 }

@@ -11,10 +11,8 @@
 	"Control"   : ["ENCFF396QPU.bam", "ENCFF231HNB.bam"]
     },
     "Coverage Threads"                : 5,
-    "Single-Feature Model Directory"  : "mm10-liver-embryo-day13.5:models",
     "Directory"                       : "mm10-liver-embryo-day13.5",
     "Description"                     : "liver embryo day13.5",
-    "Model Estimate"                  : true,
     "Threads"                         : 10,
     "Verbose"                         : 2
 }

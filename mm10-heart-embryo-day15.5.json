@@ -11,10 +11,8 @@
 	"Control"   : ["ENCFF487AIV.bam", "ENCFF642FOT.bam"]
     },
     "Coverage Threads"                : 5,
-    "Single-Feature Model Directory"  : "mm10-heart-embryo-day15.5:models",
     "Directory"                       : "mm10-heart-embryo-day15.5",
     "Description"                     : "heart embryo day15.5",
-    "Model Estimate"                  : true,
     "Threads"                         : 10,
     "Verbose"                         : 2
 }

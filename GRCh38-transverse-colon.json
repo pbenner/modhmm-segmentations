@@ -11,10 +11,8 @@
 	"Control"   : ["ENCFF742DCE.bam"]
     },
     "Coverage Threads"                : 5,
-    "Single-Feature Model Directory"  : "GRCh38-transverse-colon:models",
     "Directory"                       : "GRCh38-transverse-colon",
     "Description"                     : "GRCh38 transverse colon",
-    "Model Estimate"                  : true,
     "Threads"                         : 20,
     "Verbose"                         : 2
 }

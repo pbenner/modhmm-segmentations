@@ -47,8 +47,9 @@ BASENAMES = \
 
 TARGETS = \
 	$(addsuffix /segmentation.bed.gz,$(BASENAMES)) \
-	$(addsuffix -models.tar.bz2,$(BASENAMES)) \
 	$(addsuffix .json,$(BASENAMES))
+
+SOURCE_DIR = /project/modhmm-data/philipp/modhmm-encode-1.2
 
 ## -----------------------------------------------------------------------------
 
@@ -58,37 +59,27 @@ all: $(TARGETS) README.md
 ## -----------------------------------------------------------------------------
 
 %.json:
-	cp -Lpr ~/Source/modhmm-encode/$@ .
+	cp -Lpr $(SOURCE_DIR)/$@ .
 
 ## segmentation
 ## -----------------------------------------------------------------------------
 
 %/segmentation.bed.gz: | %
-	zgrep -v chrEBV ~/Source/modhmm-encode/$@ > $(basename $@)
+	zgrep -v chrEBV $(SOURCE_DIR)/$@ > $(basename $@)
 	gzip -9 $(basename $@)
-	touch -r ~/Source/modhmm-encode/$@ $@
+	touch -r $(SOURCE_DIR)/$@ $@
 
 ## posteriors
 ## -----------------------------------------------------------------------------
 
 %/posterior-marginal-EA.bw: | %
-	cp -Lpr ~/Source/modhmm-encode/$@ $@
+	cp -Lpr $(SOURCE_DIR)/$@ $@
 %/posterior-marginal-PA.bw: | %
-	cp -Lpr ~/Source/modhmm-encode/$@ $@
+	cp -Lpr $(SOURCE_DIR)/$@ $@
 %/posterior-marginal-BI.bw: | %
-	cp -Lpr ~/Source/modhmm-encode/$@ $@
+	cp -Lpr $(SOURCE_DIR)/$@ $@
 %/posterior-marginal-PR.bw: | %
-	cp -Lpr ~/Source/modhmm-encode/$@ $@
-
-## models directory
-## -----------------------------------------------------------------------------
-
-%-models.tar.bz2: %\:models
-	tar -cjvf $@ $<
-	$(RM) -rf $<
-
-%\:models:
-	cp -Lpr ~/Source/modhmm-encode/$@ .
+	cp -Lpr $(SOURCE_DIR)/$@ $@
 
 ## directories
 ## -----------------------------------------------------------------------------
@@ -100,19 +91,17 @@ $(BASENAMES): %:
 ## -----------------------------------------------------------------------------
 
 README.md: $(TARGETS)
-	echo 'Tissue | Date |Segmentation | Posteriors | Config | Single-feature model | Comment' >  $@
-	echo '-------|------|-------------|------------|--------|----------------------|--------' >> $@
+	echo 'Tissue | Date |Segmentation | Posteriors | Config | Comment' >  $@
+	echo '-------|------|-------------|------------|--------|--------' >> $@
 	for i in $(BASENAMES); do \
 		echo -n "$$i" | sed 's/-/ /g'; \
 		echo -n " | $$(stat -c %y $$i/segmentation.bed.gz | sed 's/ .*$$//')"; \
 		echo -n " | [Segmentation](https://github.com/pbenner/modhmm-segmentations/raw/master/$$i/segmentation.bed.gz)"; \
 		echo -n " |   [Posteriors](https://owww.molgen.mpg.de/~benner/pool/modhmm/$$i/)"; \
 		echo -n " |       [Config](https://github.com/pbenner/modhmm-segmentations/raw/master/$$i.json)"; \
-		echo -n " |       [Models](https://github.com/pbenner/modhmm-segmentations/raw/master/$$i-models.tar.bz2)"; \
 		if echo $$i | grep -q "mm10"; then echo " | poly-A RNA-seq"; else echo " | total RNA-seq"; fi; \
 	done >> $@
 
 ## -----------------------------------------------------------------------------
 
-.PRECIOUS: %\:models
 .PHONY: all

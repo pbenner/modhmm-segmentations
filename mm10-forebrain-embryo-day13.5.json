@@ -11,10 +11,8 @@
 	"Control"   : ["ENCFF956XFI.bam", "ENCFF837CRH.bam"]
     },
     "Coverage Threads"                : 5,
-    "Single-Feature Model Directory"  : "mm10-forebrain-embryo-day13.5:models",
     "Directory"                       : "mm10-forebrain-embryo-day13.5",
     "Description"                     : "forebrain embryo day13.5",
-    "Model Estimate"                  : true,
     "Threads"                         : 10,
     "Verbose"                         : 2
 }

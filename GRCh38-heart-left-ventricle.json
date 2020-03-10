@@ -11,10 +11,8 @@
 	"Control"   : ["ENCFF925AMH.bam"]
     },
     "Coverage Threads"                : 5,
-    "Single-Feature Model Directory"  : "GRCh38-heart-left-ventricle:models",
     "Directory"                       : "GRCh38-heart-left-ventricle",
     "Description"                     : "GRCh38 heart left ventricle",
-    "Model Estimate"                  : true,
     "Threads"                         : 20,
     "Verbose"                         : 2
 }

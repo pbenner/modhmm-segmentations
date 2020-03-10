@@ -11,10 +11,8 @@
 	"Control"   : ["ENCFF981WUC.bam"]
     },
     "Coverage Threads"                : 5,
-    "Single-Feature Model Directory"  : "GRCh38-lung-upper-lobe:models",
     "Directory"                       : "GRCh38-lung-upper-lobe",
     "Description"                     : "GRCh38 lung upper lobe",
-    "Model Estimate"                  : true,
     "Threads"                         : 20,
     "Verbose"                         : 2
 }

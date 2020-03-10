@@ -13,10 +13,8 @@
 	"Control"   : ["ENCFF590RZJ.bam"]
     },
     "Coverage Threads"                : 5,
-    "Single-Feature Model Directory"  : "GRCh38-pancreas-body:models",
     "Directory"                       : "GRCh38-pancreas-body",
     "Description"                     : "GRCh38 pancreas body",
-    "Model Estimate"                  : true,
     "Threads"                         : 20,
     "Verbose"                         : 2
 }

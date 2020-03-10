@@ -11,10 +11,8 @@
 	"Control"   : ["ENCFF419ELL.bam"]
     },
     "Coverage Threads"                : 5,
-    "Single-Feature Model Directory"  : "GRCh38-stomach:models",
     "Directory"                       : "GRCh38-stomach",
     "Description"                     : "GRCh38 stomach",
-    "Model Estimate"                  : true,
     "Threads"                         : 20,
     "Verbose"                         : 2
 }

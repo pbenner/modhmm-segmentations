@@ -11,10 +11,8 @@
 	"Control"   : ["ENCFF925HTZ.bam"]
     },
     "Coverage Threads"                : 5,
-    "Single-Feature Model Directory"  : "GRCh38-tibial-nerve:models",
     "Directory"                       : "GRCh38-tibial-nerve",
     "Description"                     : "GRCh38 tibial nerve",
-    "Model Estimate"                  : true,
     "Threads"                         : 20,
     "Verbose"                         : 2
 }

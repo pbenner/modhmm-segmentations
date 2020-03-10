@@ -11,10 +11,8 @@
 	"Control"   : ["ENCFF492OBI.bam"]
     },
     "Coverage Threads"                : 5,
-    "Single-Feature Model Directory"  : "GRCh38-uterus:models",
     "Directory"                       : "GRCh38-uterus",
     "Description"                     : "GRCh38 uterus",
-    "Model Estimate"                  : true,
     "Threads"                         : 20,
     "Verbose"                         : 2
 }

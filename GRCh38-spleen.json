@@ -11,10 +11,8 @@
 	"Control"   : ["ENCFF608SQR.bam"]
     },
     "Coverage Threads"                : 5,
-    "Single-Feature Model Directory"  : "GRCh38-spleen:models",
     "Directory"                       : "GRCh38-spleen",
     "Description"                     : "GRCh38 spleen",
-    "Model Estimate"                  : true,
     "Threads"                         : 20,
     "Verbose"                         : 2
 }

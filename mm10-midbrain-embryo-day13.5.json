@@ -11,10 +11,8 @@
 	"Control"   : ["ENCFF561HVM.bam", "ENCFF962XXR.bam"]
     },
     "Coverage Threads"                : 5,
-    "Single-Feature Model Directory"  : "mm10-midbrain-embryo-day13.5:models",
     "Directory"                       : "mm10-midbrain-embryo-day13.5",
     "Description"                     : "midbrain embryo day13.5",
-    "Model Estimate"                  : true,
     "Threads"                         : 10,
     "Verbose"                         : 2
 }

@@ -11,10 +11,8 @@
 	"Control"   : ["ENCFF893ZJC.bam"]
     },
     "Coverage Threads"                : 5,
-    "Single-Feature Model Directory"  : "GRCh38-ascending-aorta:models",
     "Directory"                       : "GRCh38-ascending-aorta",
     "Description"                     : "GRCh38 ascending aorta",
-    "Model Estimate"                  : true,
     "Threads"                         : 20,
     "Verbose"                         : 2
 }

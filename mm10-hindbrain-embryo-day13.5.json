@@ -11,10 +11,8 @@
 	"Control"   : ["ENCFF160VSE.bam", "ENCFF048BGA.bam"]
     },
     "Coverage Threads"                : 5,
-    "Single-Feature Model Directory"  : "mm10-hindbrain-embryo-day13.5:models",
     "Directory"                       : "mm10-hindbrain-embryo-day13.5",
     "Description"                     : "hindbrain embryo day13.5",
-    "Model Estimate"                  : true,
     "Threads"                         : 10,
     "Verbose"                         : 2
 }
