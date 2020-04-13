@@ -11,6 +11,7 @@
 	"RNA"       : ["ENCFF121WPN.bam"],
 	"Control"   : ["ENCFF719VPI.bam"]
     },
+    "Model Estimate"                  : true,
     "Coverage Threads"                : 5,
     "Directory"                       : "GRCh38-gastrocnemius-medialis",
     "Description"                     : "GRCh38 gastrocnemius medialis",

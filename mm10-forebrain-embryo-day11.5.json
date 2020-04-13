@@ -10,6 +10,7 @@
 	"RNA"       : ["ENCFF625THA.bam", "ENCFF177AZU.bam"],
 	"Control"   : ["ENCFF631YQS.bam", "ENCFF658BBR.bam"]
     },
+    "Model Estimate"                  : true,
     "Coverage Threads"                : 5,
     "Directory"                       : "mm10-forebrain-embryo-day11.5",
     "Description"                     : "forebrain embryo day11.5",

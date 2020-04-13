@@ -49,7 +49,7 @@ TARGETS = \
 	$(addsuffix /segmentation.bed.gz,$(BASENAMES)) \
 	$(addsuffix .json,$(BASENAMES))
 
-SOURCE_DIR = /project/modhmm-data/philipp/modhmm-encode-1.2
+SOURCE_DIR = /project/modhmm-data/philipp/modhmm-encode-1.2.2
 
 ## -----------------------------------------------------------------------------
 
@@ -91,11 +91,11 @@ $(BASENAMES): %:
 ## -----------------------------------------------------------------------------
 
 README.md: $(TARGETS)
-	echo 'Tissue | Date |Segmentation | Posteriors | Config | Comment' >  $@
-	echo '-------|------|-------------|------------|--------|--------' >> $@
+	echo 'Tissue | Version | Segmentation | Posteriors | Config | Comment' >  $@
+	echo '-------|---------|--------------|------------|--------|--------' >> $@
 	for i in $(BASENAMES); do \
 		echo -n "$$i" | sed 's/-/ /g'; \
-		echo -n " | $$(stat -c %y $$i/segmentation.bed.gz | sed 's/ .*$$//')"; \
+		echo -n " | $$(zcat $$i/segmentation.bed.gz | head -n1 | sed -r 's/.*ModHMM:([0-9.]+) .*/\1/')"; \
 		echo -n " | [Segmentation](https://github.com/pbenner/modhmm-segmentations/raw/master/$$i/segmentation.bed.gz)"; \
 		echo -n " |   [Posteriors](https://owww.molgen.mpg.de/~benner/pool/modhmm/$$i/)"; \
 		echo -n " |       [Config](https://github.com/pbenner/modhmm-segmentations/raw/master/$$i.json)"; \

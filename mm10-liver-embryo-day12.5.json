@@ -10,6 +10,7 @@
 	"RNA"       : ["ENCFF405LEY.bam", "ENCFF627PCS.bam"],
 	"Control"   : ["ENCFF865QGZ.bam", "ENCFF438RYK.bam"]
     },
+    "Model Estimate"                 : true,
     "Coverage Threads"               : 5,
     "Directory"                      : "mm10-liver-embryo-day12.5",
     "Description"                    : "liver embryo day12.5",
