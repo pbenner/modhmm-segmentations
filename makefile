@@ -49,7 +49,7 @@ TARGETS = \
 	$(addsuffix /segmentation.bed.gz,$(BASENAMES)) \
 	$(addsuffix .json,$(BASENAMES))
 
-SOURCE_DIR = /project/modhmm-data/philipp/modhmm-encode-1.2.2
+SOURCE_DIR = /project/modhmm-data/philipp/modhmm-encode-1.2.3
 
 ## -----------------------------------------------------------------------------
 
